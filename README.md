@@ -9,8 +9,8 @@ Clone of the Wix headless site. Pages: `index`, `services`, `projects`, `industr
 4. Live in ~1 min at `https://<your-username>.github.io/smarthands-site/`.
 
 ## Custom domain (optional)
-- Settings → Pages → Custom domain → e.g. `smarthands.amigranetworks.com` → tick **Enforce HTTPS**.
-- At your DNS: `CNAME  smarthands  →  <your-username>.github.io`
+- Settings → Pages → Custom domain → e.g. `www.yourdomain.com.au` → tick **Enforce HTTPS**.
+- At your DNS: `CNAME  www  →  <your-username>.github.io`
   (apex domain instead: A records 185.199.108.153 / .109.153 / .110.153 / .111.153)
 
 ## Contact form setup (2 min)
