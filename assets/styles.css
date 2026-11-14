@@ -11,3 +11,10 @@
 
 /* ---- Top announcement bar (all pages) ---- */
 .top-announcement{background:#101b2a;color:#dce5e9;text-align:right;padding:9px max(24px,calc((100vw - 1160px)/2));font:700 10px/1.4 'DM Sans',Arial,sans-serif;letter-spacing:.2em;text-transform:uppercase;border-bottom:1px solid rgba(22,163,106,.55)}.top-announcement span{color:#16A36A}@media(max-width:650px){.top-announcement{font-size:9px;letter-spacing:.12em;padding:9px 18px}}
+
+/* ---- Sticky header that slims on scroll ---- */
+.site-header{position:sticky;top:0;transition:height .25s ease,box-shadow .25s ease}
+.site-header .brand-logo{transition:width .25s ease,max-height .25s ease}
+.site-header.scrolled{height:62px;box-shadow:0 6px 22px rgba(16,27,42,.09)}
+.site-header.scrolled .brand-logo{width:138px;max-height:44px}
+@media(max-width:650px){.nav{top:100%}.site-header.scrolled{height:58px}.site-header.scrolled .brand-logo{width:124px}}

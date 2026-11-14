@@ -1,5 +1,9 @@
 document.addEventListener('DOMContentLoaded',()=>{const toggle=document.querySelector('.menu-toggle');const nav=document.querySelector('.nav');if(toggle&&nav){toggle.addEventListener('click',()=>{const open=nav.classList.toggle('open');toggle.setAttribute('aria-expanded',String(open));toggle.textContent=open?'×':'☰'});nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');toggle.setAttribute('aria-expanded','false');toggle.textContent='☰'}))}document.querySelectorAll('[data-year]').forEach(el=>el.textContent=new Date().getFullYear())
 
+
+/* Sticky header: slim down after scrolling */
+const header=document.querySelector('.site-header');
+if(header){const onScroll=()=>header.classList.toggle('scrolled',window.scrollY>40);onScroll();window.addEventListener('scroll',onScroll,{passive:true})}
 /* Contact form -> Web3Forms (free, no server needed on GitHub Pages) */
 const form=document.getElementById('contact-form');
 if(form){const status=form.querySelector('.form-status');const btn=form.querySelector('button[type=submit]');
