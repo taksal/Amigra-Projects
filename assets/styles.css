@@ -23,6 +23,6 @@
 @media(max-width:650px){.nav{top:100%}.site-header.scrolled{height:50px}.site-header.scrolled .brand-logo{width:108px;max-height:34px}.site-header.scrolled .nav a{font-size:13px}.site-header.scrolled .nav .nav-cta{padding:13px 15px;font-size:13px}}
 
 /* ---- Home hero: two-tone intro copy ---- */
-.hero .hero-lead-strong{max-width:700px;color:#e9eff4;font-size:clamp(18px,1.55vw,21px);line-height:1.6;font-weight:400;margin-bottom:14px}
-.hero .hero-sub{max-width:600px;color:#8494a6;font-size:16px;line-height:1.6;font-weight:400;margin:0 0 34px}
-@media(max-width:650px){.hero .hero-lead-strong{font-size:17px}.hero .hero-sub{font-size:15px}}
+.hero .hero-lead-strong{max-width:580px;color:#dfe7ee;font-size:17.5px;line-height:1.55;font-weight:400;letter-spacing:-.01em;margin-bottom:10px}
+.hero .hero-sub{max-width:520px;color:#7f8fa1;font-size:14.5px;line-height:1.6;font-weight:400;margin:0 0 32px}
+@media(max-width:650px){.hero .hero-lead-strong{font-size:16px}.hero .hero-sub{font-size:14px}}
