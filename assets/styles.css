@@ -21,3 +21,8 @@
 .site-header.scrolled .nav a{font-size:12px}
 .site-header.scrolled .nav .nav-cta{padding:8px 13px;font-size:11.5px;border-radius:4px}
 @media(max-width:650px){.nav{top:100%}.site-header.scrolled{height:50px}.site-header.scrolled .brand-logo{width:108px;max-height:34px}.site-header.scrolled .nav a{font-size:13px}.site-header.scrolled .nav .nav-cta{padding:13px 15px;font-size:13px}}
+
+/* ---- Home hero: two-tone intro copy ---- */
+.hero .hero-lead-strong{max-width:760px;color:#e6edf2;font-size:clamp(19px,2vw,24px);line-height:1.55;font-weight:400;margin-bottom:16px}
+.hero .hero-sub{max-width:640px;color:#8d9cab;font-size:16px;line-height:1.6;margin:0 0 34px}
+@media(max-width:650px){.hero .hero-lead-strong{font-size:18px}.hero .hero-sub{font-size:15px}}
