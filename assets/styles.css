@@ -26,3 +26,9 @@
 .hero .hero-lead-strong{max-width:580px;color:#dfe7ee;font-size:17.5px;line-height:1.55;font-weight:400;letter-spacing:-.01em;margin-bottom:10px}
 .hero .hero-sub{max-width:520px;color:#7f8fa1;font-size:14.5px;line-height:1.6;font-weight:400;margin:0 0 32px}
 @media(max-width:650px){.hero .hero-lead-strong{font-size:16px}.hero .hero-sub{font-size:14px}}
+
+/* ---- Amigra Field Services logo sizing ---- */
+.site-header .brand-logo{width:196px;max-height:56px}
+.site-header.scrolled .brand-logo{width:150px;max-height:42px}
+.footer-brand .footer-logo{width:190px;max-height:56px}
+@media(max-width:650px){.site-header .brand-logo{width:160px}.site-header.scrolled .brand-logo{width:130px;max-height:36px}}
