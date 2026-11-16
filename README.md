@@ -1,4 +1,4 @@
-# Smart Hands by Amigra — static site (GitHub Pages)
+# Amigra Field Services — static site (GitHub Pages)
 
 Clone of the Wix headless site. Pages: `index`, `services`, `projects`, `industries`, `contact`, `404`.
 
