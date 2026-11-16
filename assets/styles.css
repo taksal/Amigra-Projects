@@ -32,3 +32,5 @@
 .site-header.scrolled .brand-logo{width:150px;max-height:42px}
 .footer-brand .footer-logo{width:190px;max-height:56px}
 @media(max-width:650px){.site-header .brand-logo{width:160px}.site-header.scrolled .brand-logo{width:130px;max-height:36px}}
+
+.top-announcement b.ta-mid{font:inherit;color:inherit}@media(max-width:650px){.top-announcement b.ta-mid{display:none}}
